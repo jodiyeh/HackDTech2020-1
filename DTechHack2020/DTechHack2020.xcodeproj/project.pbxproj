@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC61581724C37C390056BABF /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581624C37C390056BABF /* CustomPageViewController.swift */; };
+		EC61581924C37C8A0056BABF /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581824C37C8A0056BABF /* ViewController1.swift */; };
+		EC61581B24C37C990056BABF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581A24C37C990056BABF /* ViewController2.swift */; };
 		EC7C0CF224C3697E0042292F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C0CF124C3697E0042292F /* AppDelegate.swift */; };
 		EC7C0CF424C3697E0042292F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C0CF324C3697E0042292F /* SceneDelegate.swift */; };
 		EC7C0CF624C3697E0042292F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C0CF524C3697E0042292F /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC61581624C37C390056BABF /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
+		EC61581824C37C8A0056BABF /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		EC61581A24C37C990056BABF /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		EC7C0CEE24C3697E0042292F /* DTechHack2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTechHack2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7C0CF124C3697E0042292F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7C0CF324C3697E0042292F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				EC7C0CFA24C369850042292F /* Assets.xcassets */,
 				EC7C0CFC24C369850042292F /* LaunchScreen.storyboard */,
 				EC7C0CFF24C369850042292F /* Info.plist */,
+				EC61581624C37C390056BABF /* CustomPageViewController.swift */,
+				EC61581824C37C8A0056BABF /* ViewController1.swift */,
+				EC61581A24C37C990056BABF /* ViewController2.swift */,
 			);
 			path = DTechHack2020;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC61581724C37C390056BABF /* CustomPageViewController.swift in Sources */,
+				EC61581924C37C8A0056BABF /* ViewController1.swift in Sources */,
 				EC7C0CF624C3697E0042292F /* ViewController.swift in Sources */,
 				EC7C0CF224C3697E0042292F /* AppDelegate.swift in Sources */,
 				EC7C0CF424C3697E0042292F /* SceneDelegate.swift in Sources */,
+				EC61581B24C37C990056BABF /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
