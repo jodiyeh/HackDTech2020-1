@@ -12,7 +12,7 @@ class CustomPageViewController: UIPageViewController, UIPageViewControllerDataSo
     
     lazy var subViewControllers: [UIViewController] = {
         return [
-            self.newVC(viewController: "ViewController"), self.newVC(viewController: "ViewController1"), self.newVC(viewController: "ViewController2")
+            self.newVC(viewController: "ViewController"), self.newVC(viewController: "ViewController1"), self.newVC(viewController: "ViewController2"), self.newVC(viewController: "ViewController3"), self.newVC(viewController: "ViewController4"), self.newVC(viewController: "CustomTabBarController")
         ]
     }()
     
@@ -52,9 +52,22 @@ class CustomPageViewController: UIPageViewController, UIPageViewControllerDataSo
     func presentationCount(for pageViewController: UIPageViewController) -> Int {
         let pageController = UIPageControl.appearance()
         pageController.backgroundColor = UIColor.clear
+        pageController.currentPageIndicatorTintColor = UIColor.darkGray
+        pageController.pageIndicatorTintColor = UIColor.gray
         return subViewControllers.count
         }
-
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        for view in self.view.subviews {
+            if view is UIScrollView {
+                view.frame = UIScreen.main.bounds
+            } else if view is UIPageControl {
+                view.backgroundColor = UIColor.clear
+            }
+        }
+    }
+    
     func presentationIndex(for pageViewController: UIPageViewController) -> Int {
         return 0
         }
@@ -63,6 +76,7 @@ class CustomPageViewController: UIPageViewController, UIPageViewControllerDataSo
         super.viewDidLoad()
         self.delegate = self
         self.dataSource = self
+        self.view.backgroundColor = UIColor.white
         if let firstViewController = subViewControllers.first {
             setViewControllers([firstViewController], direction: .forward, animated: true, completion: nil)
         }
