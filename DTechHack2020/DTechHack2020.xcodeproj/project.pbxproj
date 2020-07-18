@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC61581724C37C390056BABF /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581624C37C390056BABF /* CustomPageViewController.swift */; };
+		EC61581924C37C8A0056BABF /* OnBoarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581824C37C8A0056BABF /* OnBoarding1.swift */; };
+		EC61581B24C37C990056BABF /* OnBoarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581A24C37C990056BABF /* OnBoarding2.swift */; };
 		EC7C0CF224C3697E0042292F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C0CF124C3697E0042292F /* AppDelegate.swift */; };
 		EC7C0CF424C3697E0042292F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C0CF324C3697E0042292F /* SceneDelegate.swift */; };
-		EC7C0CF624C3697E0042292F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C0CF524C3697E0042292F /* ViewController.swift */; };
+		EC7C0CF624C3697E0042292F /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C0CF524C3697E0042292F /* WelcomeScreen.swift */; };
 		EC7C0CF924C3697E0042292F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7C0CF724C3697E0042292F /* Main.storyboard */; };
 		EC7C0CFB24C369850042292F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7C0CFA24C369850042292F /* Assets.xcassets */; };
 		EC7C0CFE24C369850042292F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7C0CFC24C369850042292F /* LaunchScreen.storyboard */; };
+		EC8D530524C39D3600C2F40D /* OnBoarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D530424C39D3600C2F40D /* OnBoarding3.swift */; };
+		EC8D530724C39D4E00C2F40D /* OnBoarding4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D530624C39D4E00C2F40D /* OnBoarding4.swift */; };
+		EC8D530B24C3A4B900C2F40D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D530A24C3A4B900C2F40D /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC61581624C37C390056BABF /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
+		EC61581824C37C8A0056BABF /* OnBoarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding1.swift; sourceTree = "<group>"; };
+		EC61581A24C37C990056BABF /* OnBoarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding2.swift; sourceTree = "<group>"; };
 		EC7C0CEE24C3697E0042292F /* DTechHack2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTechHack2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7C0CF124C3697E0042292F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7C0CF324C3697E0042292F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC7C0CF524C3697E0042292F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC7C0CF524C3697E0042292F /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		EC7C0CF824C3697E0042292F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC7C0CFA24C369850042292F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC7C0CFD24C369850042292F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC7C0CFF24C369850042292F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8D530424C39D3600C2F40D /* OnBoarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding3.swift; sourceTree = "<group>"; };
+		EC8D530624C39D4E00C2F40D /* OnBoarding4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding4.swift; sourceTree = "<group>"; };
+		EC8D530A24C3A4B900C2F40D /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,17 @@
 			children = (
 				EC7C0CF124C3697E0042292F /* AppDelegate.swift */,
 				EC7C0CF324C3697E0042292F /* SceneDelegate.swift */,
-				EC7C0CF524C3697E0042292F /* ViewController.swift */,
+				EC7C0CF524C3697E0042292F /* WelcomeScreen.swift */,
 				EC7C0CF724C3697E0042292F /* Main.storyboard */,
 				EC7C0CFA24C369850042292F /* Assets.xcassets */,
 				EC7C0CFC24C369850042292F /* LaunchScreen.storyboard */,
 				EC7C0CFF24C369850042292F /* Info.plist */,
+				EC61581624C37C390056BABF /* CustomPageViewController.swift */,
+				EC61581824C37C8A0056BABF /* OnBoarding1.swift */,
+				EC61581A24C37C990056BABF /* OnBoarding2.swift */,
+				EC8D530424C39D3600C2F40D /* OnBoarding3.swift */,
+				EC8D530624C39D4E00C2F40D /* OnBoarding4.swift */,
+				EC8D530A24C3A4B900C2F40D /* CustomTabBarController.swift */,
 			);
 			path = DTechHack2020;
 			sourceTree = "<group>";
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7C0CF624C3697E0042292F /* ViewController.swift in Sources */,
+				EC61581724C37C390056BABF /* CustomPageViewController.swift in Sources */,
+				EC61581924C37C8A0056BABF /* OnBoarding1.swift in Sources */,
+				EC7C0CF624C3697E0042292F /* WelcomeScreen.swift in Sources */,
+				EC8D530724C39D4E00C2F40D /* OnBoarding4.swift in Sources */,
 				EC7C0CF224C3697E0042292F /* AppDelegate.swift in Sources */,
 				EC7C0CF424C3697E0042292F /* SceneDelegate.swift in Sources */,
+				EC8D530524C39D3600C2F40D /* OnBoarding3.swift in Sources */,
+				EC61581B24C37C990056BABF /* OnBoarding2.swift in Sources */,
+				EC8D530B24C3A4B900C2F40D /* CustomTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
