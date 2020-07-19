@@ -378,8 +378,8 @@
     <resources>
         <image name="bar" width="6000" height="4000"/>
         <image name="chatVC" width="375" height="667"/>
-        <image name="commVC" width="375" height="667"/>
-        <image name="factsVC" width="375" height="667"/>
+        <image name="commVC" width="750" height="1334"/>
+        <image name="factsVC" width="750" height="1334"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="lightbulb" catalog="system" width="113" height="128"/>
         <image name="person" catalog="system" width="128" height="117"/>
