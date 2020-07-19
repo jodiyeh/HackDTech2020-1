@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BFFC54C24C3C8B70047E1B2 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFFC54B24C3C8B70047E1B2 /* ResourcesViewController.swift */; };
 		EC61581724C37C390056BABF /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581624C37C390056BABF /* CustomPageViewController.swift */; };
 		EC61581924C37C8A0056BABF /* OnBoarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581824C37C8A0056BABF /* OnBoarding1.swift */; };
 		EC61581B24C37C990056BABF /* OnBoarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581A24C37C990056BABF /* OnBoarding2.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BFFC54B24C3C8B70047E1B2 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		EC61581624C37C390056BABF /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
 		EC61581824C37C8A0056BABF /* OnBoarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding1.swift; sourceTree = "<group>"; };
 		EC61581A24C37C990056BABF /* OnBoarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding2.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				EC7C0CF324C3697E0042292F /* SceneDelegate.swift */,
 				EC7C0CF524C3697E0042292F /* WelcomeScreen.swift */,
 				EC7C0CF724C3697E0042292F /* Main.storyboard */,
+				3BFFC54B24C3C8B70047E1B2 /* ResourcesViewController.swift */,
 				EC7C0CFA24C369850042292F /* Assets.xcassets */,
 				EC7C0CFC24C369850042292F /* LaunchScreen.storyboard */,
 				EC7C0CFF24C369850042292F /* Info.plist */,
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFFC54C24C3C8B70047E1B2 /* ResourcesViewController.swift in Sources */,
 				EC61581724C37C390056BABF /* CustomPageViewController.swift in Sources */,
 				EC61581924C37C8A0056BABF /* OnBoarding1.swift in Sources */,
 				EC7C0CF624C3697E0042292F /* WelcomeScreen.swift in Sources */,
